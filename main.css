@@ -19,8 +19,8 @@ body{
 .container{
   width: 100%;
   height: 80%;
-  background :linear-gradient(to top,#660066,#efbbff 100%);
-  /*background-color: #660066;*/
+  /*background :linear-gradient(to top,#660066,#efbbff 100%);*/
+  background-color: #660066;
 }
 
 img.round{
@@ -267,6 +267,32 @@ margin-bottom: 1rem;
   height: auto;
 }
 
+.full {
+  
+  width: 100%;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+}
+
+.zoom {
+  animation: scale 20s linear infinite;
+}
+  
+@keyframes scale {
+  50% {
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    transform:scale(1.2);
+  }
+}
+
 
 
 
@@ -502,8 +528,8 @@ margin-top: 1rem;
 
 /*circle that is at the bottom of the images*/
 
-.circle {
-   /*background-image: url("images/vero2.jpg");*/
+.myBtn{
+ 
   height: 50px;
   width: 50px;
   background-color:#660066;
@@ -511,11 +537,28 @@ margin-top: 1rem;
   position: absolute;
   bottom: 20px;
   right: 14px;
-   border: 4px solid #efbbff;;
+   border: 4px solid #efbbff;
+   font-size: 40px;
+   outline: none;
+
+
+
+}
+
+/*.circle {
+*/   /*background-image: url("images/vero2.jpg");*/
+  /*height: 50px;
+  width: 50px;
+  background-color:#660066;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 20px;
+  right: 14px;*/
+   /*border: 4px solid #efbbff;
 
   
 
-}
+}*/
 
 i:hover{
   transform: rotate(360deg);
