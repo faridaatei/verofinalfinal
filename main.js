@@ -1,4 +1,4 @@
-var width=1200;
+var width=1500;
 
  var difference=2;
  var interveralID =0;
@@ -16,7 +16,7 @@ var width=1200;
  }
  function expand()
  {
- if(width<1300)
+ if(width<1600)
  {
  width = width+difference;
  document.getElementById("img1").style.width=width;
@@ -30,7 +30,7 @@ var width=1200;
  }
  function shrink()
  {
- if(width>1200)
+ if(width>1500)
  {
  width = width-difference;
  document.getElementById("img1").style.width=width;

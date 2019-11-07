@@ -5,15 +5,36 @@
   user-select: none;
 }
 
-
 body{
   overflow-x: hidden;
 
   font-family: Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
     font-weight: 400;
     line-height: 1.5;
-  
     -webkit-font-smoothing: antialiased;
+}
+
+
+
+@media screen and (max-width:99%; ){
+.container{
+  width: 100%;  
+}
+.cons{
+ width: 60%;   
+}
+
+.prof{
+ width: 20%;   
+}
+
+.tagline{
+ width: 20%;   
+}
+
+img{
+  width: 100%; 
+}
 }
 
 .container{
@@ -31,7 +52,8 @@ img.round{
   margin-left: auto;
   margin-right: auto;
   padding: 80px;
-}
+
+    }
 
 .w3-container{
   width: 100%;
@@ -59,11 +81,11 @@ h2{
 
 
 .cons img{
-max-width: 100%;
+max-width: 2700px;
 height:200%;
 position: relative;
 top: -63%;
-margin-left: 50px;
+left: -85px;
 
 }
 
@@ -149,7 +171,7 @@ h5{
   top: 140px;
   transform: translateY(-50%);
   width: 100%;
-  color: #000;
+  color: #660066;
   font-size: 5em;
   text-align: center;
  /* letter-spacing: 0.2em;*/
@@ -179,11 +201,11 @@ h5 span{
 .currentwrk{
   /*background-color: red;*/
   width: 100%;
-  height: 1500px;
+  height: 1566px;
   position: relative;
   top:  333px;
   font-weight: lighter;
-}
+  background-color: #efbbff}
 
 /*big container holding other divs*/
 
@@ -584,7 +606,7 @@ background-color: #660066;
   width: 100%;
   height: 600px;
   position: relative;
-  top:  386px;
+  top:  333px;
   
 }
 
@@ -595,7 +617,7 @@ background-color: #efbbff;
   width: 100%;
   height: 213px;
   position: relative;
-  top:  386px;
+  top:  333px;
   
 
 }
